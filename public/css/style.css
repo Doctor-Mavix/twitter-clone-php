@@ -1,0 +1,676 @@
+
+
+svg {
+    width: 1.6rem;
+    height: 1.75rem;
+}
+
+.primaire ,svg.primaire{
+    color: #1da1f2 !important;
+    fill: #1da1f2 !important;
+}
+.fill-white ,svg.fill-white{
+    fill: white !important;
+}
+.secondaire {
+    color: #1ac228 !important;
+    fill: #1ac228 !important;   
+}
+.hover-secondaire:hover{
+    color: #1ac228 !important;
+    fill: #1ac228 !important;
+}
+.testiaire {
+    color: #f21d39 !important;
+    fill: #f21d39 !important;
+}
+.hover-testiaire:hover{
+    color: #f21d39 !important;
+    fill: #f21d39 !important;
+}
+.border-primaire{
+    border:1px solid #1da1f2 !important;
+}
+.border-b-primaire{
+    border-bottom:2px solid #1da1f2 !important;
+}
+
+.hover-color-primaire:hover ,svg.hover-color-primaire:hover{
+    color: #1da1f2 !important;
+    fill: #1da1f2 !important;
+}
+.tw-icon ,svg.tw-icon{
+    color: #818b94 ;
+    fill: #818b94 ;
+}
+
+.rounded-circle{
+    border-radius: 50% ;
+}
+
+.bg-primaire{
+    background-color: #1da1f2 ;
+}
+
+.is-invalid{
+    border: red 1px solid  !important;
+}
+
+
+.disabled {
+    opacity:.5 !important;
+    cursor: no-drop;
+}
+
+.hover-bg-primaire:hover{
+    background-color: #1089d4 ;
+
+}
+.hover-white:hover{
+    background-color: #daedfa ;
+
+}
+.hover-menu:hover{
+    color: #1da1f2 !important;
+    fill: #1da1f2 !important;
+
+}
+.logo{
+    font-size: 3rem !important ;
+    color: #1da1f2 !important;
+}
+.logo-modal{
+    font-size: 2rem !important ;
+    color: #1da1f2 !important;
+}
+
+.h1{
+    font-size: 4.7rem;
+}
+
+
+/* index */
+#index {
+    overflow: hidden;
+}
+
+#index .img{
+    background: url(../img/lohp_1302x955.png) ;
+    height: 90vh !important;
+}
+
+#index .img i{
+    font-size: 23rem !important ;
+
+}
+.twt-p{
+    padding: 0 8vw !important;
+    overflow:hidden;
+}
+.tw-nav{
+    position: fixed;
+    height: 100vh;
+    width: 16.6rem;
+    border-right: 1px solid rgba(168, 167, 167, 0.322);
+}
+
+#home {
+    overflow: hidden;
+}
+
+.barners{
+    background-repeat:  no-repeat ;
+    /* background-image:url(../upload/profil/images.jpg) ; */
+    background-size:cover ;
+    background-color:#c4cfd6 ;
+    height: 30vh;
+}
+.profil-img{
+    width: 9rem;
+    height: 9rem;
+    position: relative;
+    z-index: 1 !important;
+}
+.profil-img img{
+    width: 100%;
+    height: 100%;
+    padding: .3rem;
+    background: white;
+    border-radius: 50%;
+}
+.profil-info{
+    margin-top: -4rem ;
+}
+
+.edit-profil-img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    padding: .2rem .1rem;
+    background:rgba(240, 240, 240, 0.438) ;
+    border-radius: 50%;
+    cursor: pointer !important;
+}
+.edit-profil-barners{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    padding: .2rem .1rem;
+    background:rgba(240, 240, 240, 0.438) ;
+    border-radius: 50%;
+    cursor: pointer !important;
+}
+/* 
+
+.tw-mx-5{
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+.tw-my-2{
+    margin-top: .25rem;
+}
+.tw-p {
+    padding: .45rem .6rem;
+} */
+
+
+/* menu */
+/* .menu a:hover{
+    color:rgb(0, 153, 255);
+}
+.menu  a{
+    color: black;
+}
+.menu .item{
+    border-radius: 20px;
+    padding-right:1.5rem ;
+    margin-top: .2rem;
+}
+.menu .item i{
+     font-size: 1.75rem;
+     font-weight: lighter;
+ }
+
+.menu .menu-text{
+    font-size: 1.15rem;
+    margin-left: 1.3rem;
+    margin-top: .1rem;
+
+} */
+
+/*nav profil */
+.tw-nav .profil.nav-profil{
+    position: absolute;
+    bottom: 2%;
+    width: 95%;
+    padding: .5rem 1rem .5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.tw-nav .profil .img , #app-btn {
+    width: 2.3rem;
+    height: 2.3rem !important;
+}
+.tw-nav .profil .img img ,#app-btn  img{
+     border-radius: 50%;
+     height: 100% !important;
+     width: 100 !important;
+}
+.tw-nav .profil .text {
+    margin-left: .5rem;
+}
+.tw-nav .profil .text .hashtag{
+    margin-top:-.4rem;
+    color: rgb(139, 139, 139);
+}   
+
+/* nav short profil */
+.short-profil {
+    position: absolute;
+    width: 105%;
+    background: white;
+    border: 1px solid rgba(168, 167, 167, 0.322);
+    padding:1rem 0 0.5rem;
+    border-radius: 12px;
+    bottom: 12.5%;
+}
+.short-profil .option i{
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+.short-profil .compte-management{
+    border-top: 1px solid  rgba(168, 167, 167, 0.322);
+    padding: 1rem;
+}
+
+
+.img-circle {
+    width: 3.2rem;
+    height: 3rem;
+}
+
+.img-circle img {
+    border-radius: 50%;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.promoted {
+    fill: rgb(95, 95, 95);
+}
+.follow {
+  font-weight: bold;
+    padding: .3rem 1rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+    border: 1px solid rgb(0, 153, 255);
+}
+.follow-class {
+    background: white;
+    color: rgb(0, 153, 255);
+}
+.unfollow-class {
+    background: rgb(0, 153, 255);
+    color: white;
+}
+
+.tw-foot{
+    width:27rem;
+    /* background: red; */
+    margin-left:55.5vw;
+    border-left: 1px solid rgba(168, 167, 167, 0.322);
+    /* padding: 0 1.7rem 10rem; */
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+/* search */
+.tw-foot .search{
+    position: fixed;
+    top: 0;
+    background: white;
+    padding: .5rem 0 0;
+    z-index: 5;
+    width:22rem;
+    box-sizing: border-box;
+}
+.tw-foot .search form {
+    border-radius: 30px;
+    padding: .4rem 1rem 0;
+    background:rgba(206, 211, 212, 0.432); 
+    border: 1px solid rgba(206, 211, 212, 0.432) ; 
+}
+.tw-foot .search form svg{
+    fill: rgb(109, 109, 109);
+
+}
+.tw-foot .search input{
+    border: none;
+    outline: none;
+    width: 80%;
+    margin-left: .5rem;
+
+    background: rgba(255, 255, 255, 0);
+}
+.tw-foot .search input::placeholder{
+    font-weight: 100;
+    color: rgba(92, 92, 92, 0.801);
+
+}
+
+.tw-foot .search i{
+    color: gray;
+    font-weight: 100;
+}
+.tw-foot .search svg{
+    width: 1.1rem;
+}
+/* content */
+.tw-foot .content {
+    width: 95%;
+    height:101vh;
+    /* position: relative !important; */
+
+}
+ .content{
+    position: sticky !important;
+    top: 0 !important;
+    /* right: 0; */
+
+}
+
+ .content .content-section .head p{
+    font-weight: 900;
+    font-size:1.2rem;
+    margin: 0;
+}
+ .content .trend .head svg{
+    width: 1.2rem;
+}
+
+ .content .content-section{
+    background: #eceff1;
+    box-shadow: 1px 1px 2px rgba(187, 187, 187, 0.562);
+    padding: 0;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+ .content .each-content  {
+    font-size: .9rem;
+}
+.content .each-content svg  {
+    font-weight: bold;
+    width: 1.1rem;
+}
+ svg.svg-size{
+    font-weight: bold;
+    width: 1.1rem;
+}
+ .content .each-content .main {
+    margin-top: -1rem;
+}
+  .nick{
+    margin-top: -.5rem !important;
+}
+
+
+.tw-home {
+    /* background: rgb(203, 203, 253); */
+    width: 37.5rem;
+    /* margin-left: 19rem !important; */
+    box-sizing: border-box;
+    position: relative;
+    /* padding: 1rem; */
+
+}
+
+
+.tweet .img-circle {
+    width: 6rem;
+    height: 3rem;
+
+}
+
+.twt-options{
+    position: absolute;
+    width: 15rem;
+    padding: 1rem .5rem;
+    right: 15%;
+    top: 0;
+
+}
+.tweet .text {
+    width:70vw !important;
+
+}
+.twt-media img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.tw-home .home-head{
+    width:36rem ;
+    z-index: 4 !important;
+}
+
+.tweet-preview-media{
+    position: relative;
+    outline: none !important;
+}
+.tweet-preview-media *{
+    outline: none;
+}
+.tweet-preview-media .remove-tweet-media{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    padding: .2rem .65rem ;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    top: 2%;
+    left: 3%;
+    z-index: 5 !important;
+}
+.tweet-preview-media .edit-tweet-media{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    padding: .3rem 1rem;
+    top: 2%;
+    right:1% ;
+    font-weight: 600;
+    z-index: 5 !important;
+
+}
+
+
+.tweet-pre
+/* Mobile nav |drawer */
+
+#drawer {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.412) !important;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 20 !important;
+    color: black;
+  }
+#drawer *{
+    z-index: 20;
+}
+#drawer .content{
+    background: white !important;
+}
+#drawer .drawer-head{
+    z-index: 23 !important;
+}
+#drawer .drawer-head * {
+    z-index: 23 !important;
+}
+
+#drawer  .drawer-content{
+    overflow-y: scroll;
+    position: fixed;
+    z-index: 21 !important;
+    top: 0;
+    background: white !important;
+
+}
+
+#drawer .add-users{
+    border: 1px solid #1da1f2;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    /* padding: 0 0 .5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* responsive */
+@media (max-width:1520px){
+    .tw-foot {
+            margin-left:57.5vw;
+
+    }
+    .twt-p{
+        padding: 0 4vw !important;
+    }
+}
+@media (max-width:1467px){
+    .tw-foot {
+            margin-left:59vw;
+
+    }
+}
+@media (max-width:1432px){
+    .tw-foot {
+            margin-left:62vw;
+
+    }
+}
+@media (max-width:1360px){
+    .tw-foot {
+         margin-left:65vw;
+         width:27vw;
+
+    }
+    .tw-foot .search{
+        width:22vw;
+    }
+}
+@media (max-width:1360px){
+    .tw-foot {
+        margin-left:66vw;
+        width:28vw;
+
+    }
+    .tw-foot .search{
+        width:23vw;
+    }
+}
+@media (max-width:1279px){
+    /* nav */
+    /* .tw-mx-5{
+        margin: 0;
+    } */
+
+    /* tweet */
+    .tw-nav{
+        width: 4.3rem;
+    }
+
+    /* profil  */
+    .tw-nav .profil.nav-profil{
+       padding: .5rem;
+    }
+    /* short profil */
+    .short-profil {
+        width: 400%;
+        z-index: 150 !important;
+        background: white !important;
+    }
+
+    .tw-home {
+        margin-left: 5rem !important;
+    }
+  
+    .tw-foot {
+        margin-left:43rem;
+
+        width:30vw;
+
+    }
+    .tw-foot .search{
+        width:23vw;
+    }
+}
+
+@media (max-width:641px){
+    .tw-home {
+        margin-left: 0 !important;
+        width: 100vw;
+
+    }
+    .twt-p{
+        padding:0rem !important;
+    }
+    .home-head{
+        width:100vw !important;
+        padding-right: 1.5rem !important;
+    }
+    
+.tweet .img-circle {
+    width: 4rem;
+    height: 4rem;
+
+}
+}
+
+
+
+
+
+
+/* popup modal */
+
+/* Fenetre Modal */
+.modal-container {
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.473);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+.modal-container .modal-alert{
+    min-height: 30vh;
+
+    width: 50vw;
+
+}
+.modal-container .modals {
+    min-height: 90vh;
+    max-height: 100vh;
+    width: 40vw;
+
+}
+
+
+
+
+.modal-container .modals .actions{
+  border-top: 1px solid rgba(238, 238, 238, 0.5);
+ 
+}
+
+.modal-container .modals .modal-img img{
+  height: 5rem;
+  width: 5rem;
+}
+@media screen and (min-width:900px ) {
+  .modal-container .modals {
+      width: 40vw;
+  }
+}
+@media screen and (max-width:900px ) {
+  .modal-container .modals {
+      width: 50vw;
+  }
+}
+@media screen and (max-width:700px ) {
+  .modal-container .modals {
+      width: 75vw;
+  }
+}
+@media screen and (max-width:600px ) {
+  .modal-container .modals {
+      width: 90vw;
+    overflow-y: scroll;
+
+  }
+}
+@media screen and (max-width:500px ) {
+  .modal-container .modals {
+      width: 95vw;
+  }
+  .open-tweet-popup{
+      z-index: 4!important;
+  }
+}
+
+
+
